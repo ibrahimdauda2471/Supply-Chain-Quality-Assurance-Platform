@@ -64,4 +64,9 @@ plan:
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/product-specification.clar
             clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: supplier-performance
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/supplier-performance.clar
+            clarity-version: 2
       epoch: "2.5"
